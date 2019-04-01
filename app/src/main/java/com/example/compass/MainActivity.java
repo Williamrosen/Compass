@@ -1,10 +1,25 @@
+/*
+
+External code usage:
+
+How to create a compass app:
+https://www.wlsdevelop.com/index.php/en/blog?option=com_content&view=article&id=38
+
+
+
+
+ */
+
+
+
+
+
 package com.example.compass;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showCompass(View view) {
-        Intent intent = new Intent(this, AccelerometerActivity.class);
-        System.out.println("tjenna");
+        Intent intent = new Intent(this, CompassActivity.class);
         startActivity(intent);
 
     }
