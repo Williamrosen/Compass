@@ -11,9 +11,6 @@ https://www.wlsdevelop.com/index.php/en/blog?option=com_content&view=article&id=
  */
 
 
-
-
-
 package com.example.compass;
 
 import android.content.Intent;
