@@ -3,7 +3,7 @@ package com.example.compass;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class AccelerometerActivity extends AppCompatActivity {
+public class AccelerometerActivity extends AppCompatActivity implements {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
