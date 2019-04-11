@@ -6,8 +6,6 @@ How to create a compass app:
 https://www.wlsdevelop.com/index.php/en/blog?option=com_content&view=article&id=38
 
 
-
-
  */
 
 
@@ -31,5 +29,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public void showAccelerometer(View view){
+        Intent intent = new Intent(this, AccelerometerActivity.class);
+        startActivity(intent);
+    }
+
 
 }
